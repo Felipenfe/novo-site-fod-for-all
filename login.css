@@ -41,7 +41,7 @@ div.containerTitle {
   justify-content: center;
   align-items: center;
   background-color: var(--color-primary);
-  padding: 7rem 0;
+  padding: 5rem 0;
 }
 h1 {
   color: var(--color-tertiary);
