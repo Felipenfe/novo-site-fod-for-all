@@ -52,7 +52,7 @@ div.footer {
   display: flex;
   flex-direction: row;
   background-color: var(--color-primary);
-  margin-top: 2rem; /* configura a altura do footer */
+  margin-top: 1.5rem; /* configura a altura do footer */
   align-items: stretch;
   justify-content: space-evenly;
 }
