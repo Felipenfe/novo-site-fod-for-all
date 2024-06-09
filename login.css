@@ -172,7 +172,7 @@ div.line {
   background-color: var(--color-secondary);
 }
 
-@media screen and (max-width: 713px){
+@media screen and (max-width: 1080px){
   div.containerTitle {
     padding-top: 5rem;
   }
