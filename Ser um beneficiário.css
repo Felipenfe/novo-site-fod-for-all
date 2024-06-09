@@ -47,7 +47,7 @@ header{ /* config do cabeçalho */
   margin: 0 auto;
 }
 
-.botao .inf input[type=submit]{
+.botao{
   margin-left:auto; 
   margin-right: auto;
   display: block;
