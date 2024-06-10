@@ -34,9 +34,8 @@ function cadastroDoador() {
     Email.value = "";
     CPF.value = "";
 }
-function Esqueceu(){
-window.location.href="Recuperar senha 3.html"
-Esqueceu()
+function Ajuda(){
+window.location.href="Tela de Ajuda Doador.html"
 
 
 
