@@ -59,6 +59,7 @@ var Produto = document.getElementById("Produto");
     dados.push(auxRegistro);
 
     localStorage.setItem("dadosProduto", JSON.stringify(dados));
+    window.location.href = Solicitação de produtos efetuada.html;
     alert("Doação Armazenada!");
 
     // Limpar os campos
