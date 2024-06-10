@@ -30,3 +30,8 @@ function cadastroLogin() {
     Email.value = "";
     Senha.value = "";
 }
+
+function Esqueceu(){
+window.location.hrf="Recuperar Senha 3.html"
+
+}
