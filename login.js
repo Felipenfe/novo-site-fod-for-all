@@ -24,6 +24,8 @@ function cadastroLogin() {
     localStorage.setItem("dadosLogin", JSON.stringify(dados));
     alert("Login Realizado");
 
+    window.location.href ="Realização da Doação.html"
+    
     // Limpar os campos
     Email.value = "";
     Senha.value = "";
