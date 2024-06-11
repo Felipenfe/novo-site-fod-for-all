@@ -27,7 +27,7 @@ function cadastroProduto() {
 
     localStorage.setItem("dadosProduto", JSON.stringify(dados));
     alert("Doação Realizada");
-    window.location.href = "Solicitação de produtos efetuada.html";
+    window.location.href = "Tela de Ajuda Receptor.html";
     // Limpar os campos
     Produto.value = "";
     Quantidade.value = "";
