@@ -31,7 +31,9 @@ function cadastroLogin() {
     Senha.value = "";
 }
 
-function Esqueceu(){
-window.location.hrf="Recuperar Senha 3.html"
-
-}
+// Adicionar o evento de clique ao botão "Esqueceu a Senha?"
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('esqueceu-button').addEventListener('click', function() {
+        window.location.href = 'Recuperar Senha 1.html';
+    });
+});
