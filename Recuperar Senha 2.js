@@ -8,8 +8,8 @@ const codeInput = document.getElementById('code-input');
 verifyButton.addEventListener('click', function() {
     const code = codeInput.value;
 
-    // Simula a verificação do código
-    if (code === '123456') { // Substitua '123456' pelo código correto para verificação
+    // Verifica se o código tem 8 dígitos
+    if (code.length === 8) {
         console.log('Código verificado com sucesso.');
 
         // Redireciona para a página de redefinição de senha
