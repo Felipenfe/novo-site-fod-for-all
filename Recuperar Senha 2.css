@@ -18,7 +18,7 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: black; /* Cor do texto */
-    padding: 40px 0;
+    padding: 10px 0;
     background-color: #cce4e8; /* Cor da tarja */
     margin: 0;
     position: relative;
@@ -240,7 +240,7 @@ div.containerTitle {
   .header-img {
     position: absolute; /* Define a posição absoluta */
     top: 10px; /* Distância do topo */
-    left: 20px; /* Distância da esquerda */
+    left: 10px; /* Distância da esquerda */
     height: auto; /* Altura da imagem */
     width: 90px; /* Largura será ajustada automaticamente para manter a proporção */
     z-index: 1; /* Garante que a imagem fique sobre o texto do cabeçalho */
