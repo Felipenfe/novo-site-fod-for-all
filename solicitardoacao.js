@@ -25,7 +25,7 @@ function cadastroProduto() {
 
     localStorage.setItem("dadosProduto", JSON.stringify(dados));
     alert("Doação Realizada");
-
+    window.location.href = "Confirmação de Doação.html";
     // Limpar os campos
     Produto.value = "";
     Quantidade.value = "";
@@ -66,4 +66,3 @@ var Produto = document.getElementById("Produto");
     Quantidade.value = "";
     Local.value = "";
 }
-
