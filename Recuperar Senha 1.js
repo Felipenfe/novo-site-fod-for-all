@@ -54,7 +54,7 @@ confirmButton.addEventListener('click', function() {
         console.log(`Código enviado para o e-mail: ${email}`);
 
         // Redireciona para a página de inserção do código
-        window.location.href = 'RecuperarSenha2.html';
+        window.location.href = 'Recuperar Senha 2.html';
     } else {
         alert('Por favor, insira um endereço de e-mail válido.');
     }
